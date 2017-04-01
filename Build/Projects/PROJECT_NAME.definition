@@ -15,13 +15,16 @@
     <Reference Include="PROJECT_NAME.Content" />
   </References>
   <Files>
-    <Compile Include="Game\AsteroidEntity.cs" />
-    <Compile Include="Game\AsteroidsGame.cs" />
-    <Compile Include="Game\AsteroidsGameConfiguration.cs" />
-    <Compile Include="Game\AsteroidsModule.cs" />
-    <Compile Include="Game\AsteroidsWorld.cs" />
-    <Compile Include="Game\IEntityFactory.cs" />
-    <Compile Include="Game\PlayerShipEntity.cs" />
+    <Compile Include="AsteroidEntity.cs" />
+    <Compile Include="AsteroidsGame.cs" />
+    <Compile Include="AsteroidsGameConfiguration.cs" />
+    <Compile Include="AsteroidsInputBinder.cs" />
+    <Compile Include="AsteroidsModule.cs" />
+    <Compile Include="AsteroidsWorld.cs" />
+    <Compile Include="BulletEntity.cs" />
+    <Compile Include="IEntityFactory.cs" />
+    <Compile Include="PlayerShipEntity.cs" />
+    <Compile Include="WrapEntityComponent.cs" />
     <Content Include="Properties\AndroidManifest.xml">
       <Platforms>Android,Ouya</Platforms>
     </Content>
