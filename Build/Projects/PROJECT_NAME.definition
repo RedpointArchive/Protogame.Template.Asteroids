@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Name="PROJECT_NAME" Path="PROJECT_NAME" Type="App">
   <References>
     <Reference Include="System" />
@@ -15,12 +15,13 @@
     <Reference Include="PROJECT_NAME.Content" />
   </References>
   <Files>
-    <Compile Include="IEntityFactory.cs" />
-    <Compile Include="ExampleEntity.cs" />
-    <Compile Include="PROJECT_SAFE_NAMEGame.cs" />
-    <Compile Include="PROJECT_SAFE_NAMEGameConfiguration.cs" />
-    <Compile Include="PROJECT_SAFE_NAMEModule.cs" />
-    <Compile Include="PROJECT_SAFE_NAMEWorld.cs" />
+    <Compile Include="Game\AsteroidEntity.cs" />
+    <Compile Include="Game\AsteroidsGame.cs" />
+    <Compile Include="Game\AsteroidsGameConfiguration.cs" />
+    <Compile Include="Game\AsteroidsModule.cs" />
+    <Compile Include="Game\AsteroidsWorld.cs" />
+    <Compile Include="Game\IEntityFactory.cs" />
+    <Compile Include="Game\PlayerShipEntity.cs" />
     <Content Include="Properties\AndroidManifest.xml">
       <Platforms>Android,Ouya</Platforms>
     </Content>

@@ -1,0 +1,8 @@
+{
+    "Loader":"Protogame.FontAssetLoader",
+    "FontSize":20,
+    "FontName":"Impact",
+    "UseKerning":true,
+    "Spacing":0,
+    "PlatformData":null
+}
