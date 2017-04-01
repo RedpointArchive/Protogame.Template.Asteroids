@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Module>
+  <Name>Protogame.Template.Asteroids</Name>
+  <Authors>Redpoint Games</Authors>
+  <SemanticVersion>1.0.0</SemanticVersion>
+  <Description>This template demonstrates a single-player 2D asteroids clone implemented in Protogame.  This package can only be used with Protobuild.</Description>
+  <LicenseUrl>https://opensource.org/licenses/MIT</LicenseUrl>
+  <ProjectUrl>https://protogame.org/</ProjectUrl>
+  <GitRepositoryUrl>https://github.com/RedpointGames/Protogame.Template.Asteroids</GitRepositoryUrl>
+  <DefaultAction>resync</DefaultAction>
+  <GenerateNuGetRepositories>true</GenerateNuGetRepositories>
+  <Packages>
+    <Package Repository="https://api.nuget.org/v3/index.json" Package="Protogame" Version="master" />
+  </Packages>
+</Module>
