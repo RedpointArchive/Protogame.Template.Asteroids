@@ -2,7 +2,7 @@
 <Module>
   <Name>Protogame.Template.Asteroids</Name>
   <Authors>Redpoint Games</Authors>
-  <SemanticVersion>1.0.0</SemanticVersion>
+  <SemanticVersion>1.0.1</SemanticVersion>
   <Description>This template demonstrates a single-player 2D asteroids clone implemented in Protogame.  This package can only be used with Protobuild.</Description>
   <LicenseUrl>https://opensource.org/licenses/MIT</LicenseUrl>
   <ProjectUrl>https://protogame.org/</ProjectUrl>
