@@ -39,7 +39,7 @@ namespace PROJECT_SAFE_NAME
 #endif
         }
 
-        protected override void PrepareGraphicsDeviceManager(GraphicsDeviceManager graphicsDeviceManager)
+        public override void PrepareGraphicsDeviceManager(GraphicsDeviceManager graphicsDeviceManager)
         {
             // Set the window / game area size to 800x600.
             graphicsDeviceManager.PreferredBackBufferWidth = 800;

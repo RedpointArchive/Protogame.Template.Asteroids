@@ -49,7 +49,7 @@ namespace PROJECT_SAFE_NAME
             kernel.Load<AsteroidsModule>();
         }
         
-        public Game ConstructGame(IKernel kernel)
+        public ICoreGame ConstructGame(IKernel kernel)
         {
             return new AsteroidsGame(kernel);
         }

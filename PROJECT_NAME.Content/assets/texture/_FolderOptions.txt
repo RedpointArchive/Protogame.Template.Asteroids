@@ -1,0 +1,3 @@
+# Per-pixel collisions requires uncompressed textures.  This file sets
+# options for all textures in the folder.
+NoCompress
