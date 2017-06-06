@@ -96,7 +96,7 @@ namespace PROJECT_SAFE_NAME
             if (renderContext.IsFirstRenderPass())
             {
                 // Render the black background.
-                gameContext.Graphics.GraphicsDevice.Clear(Color.Black);
+                renderContext.GraphicsDevice.Clear(Color.Black);
             }
         }
 
